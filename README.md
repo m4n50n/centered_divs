@@ -4,7 +4,8 @@ _Ejemplos de las diferentes maneras de **centrar un div**_
 
 ```text
 Fuentes:
-https://www.youtube.com/watch?v=7M0U2BzZwpo
+↗ https://www.youtube.com/watch?v=7M0U2BzZwpo
+↗ https://github.com/powerhdeleon/100DaysAsAFrontendDev
 ```
 
 ## Forma 1 ◾ Tabla
