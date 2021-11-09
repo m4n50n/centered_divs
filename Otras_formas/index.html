@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Centrar un div: Otras formas</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>⭕ Otras formas de centrar un div:</h1>
+
+        <!-- 
+            grid: perfecto para layouts grandes
+            Pros: fácil de memorizar, se adapta perfectamente y se puede usar gap para normalizar espacios
+            Contras: todos los elementos tendrán el width del elemento más ancho
+         -->
+        <div class="grid" id="parent">
+            <div id="child"></div>
+        </div>
+
+        <br><br>
+
+        <!-- 
+            flex 1: para iconos y elementos pequeños
+            Pros: hace su trabajo en situaciones complicadas. Fácil y rápido
+            Contras: no se lleva bien con overflows y al tener un asterisco hay que tener cuidado
+         -->
+        <div class="flex1" id="parent">
+            <div id="child"></div>
+        </div>
+
+        <br><br>
+
+        <!-- 
+            flex 2: sirve para todo
+            Pros: centra los elementos, deja intacto los anchos y se puede hacer gap para normalizar espacios
+            Contras: ninguno
+         -->
+         <div class="flex2" id="parent">
+            <div id="child"></div>
+        </div>
+
+        <br><br>
+
+        <!-- 
+            absoluto: para modales sobre todo
+            Pros: útil, fiable y funciona por encima de todo
+            Contras: se necesita un contenedor relativo y sólo se puede usar una vez por bloque
+            Notas: está declarado en el CSS pero no lo pongo aquí porque no se va a ver bien
+         -->
+         
+    </body>
+</html>
