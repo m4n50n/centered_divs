@@ -1,13 +1,10 @@
 # Formas de *centrar un div* 🤡
 
-_Ejemplos de las diferentes maneras de **centrar un div**_
+_Ejemplos de las diferentes maneras de **centrar un div**_. Fuentes:
 
-```text
-Fuentes:
 ↗ https://www.youtube.com/watch?v=7M0U2BzZwpo
 ↗ https://github.com/powerhdeleon/100DaysAsAFrontendDev
 ↗ https://www.instagram.com/p/CSHdRwaCkA1/
-```
 
 ## Forma 1 ◾ Tabla
 
