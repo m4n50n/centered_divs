@@ -1,0 +1,51 @@
+/*
+GUÍA DEFINITIVA para CENTRAR un DIV en CSS:
+*/
+
+/* ⌈CON GRID⌋
+Fácil de recordar y funciona muy bien para layouts grandes.
+Ojo, los elementos que contiene tomarán la anchura del elemento más ancho. 📐
+*/
+
+.container {
+  display: grid;
+  place-content: center;
+}
+
+/* ⌈CON FLEX⌋
+Una solución un poco hacky usando los márgentes.
+No es elegante 🙈 pero te puede sacar de apuros para iconos y elementos pequeños.
+*/
+
+.container {
+  display: flex;
+}
+
+.container > * {
+  margin: auto;
+}
+
+/* ⌈ABSOLUTE⌋
+Posiciona de forma absoluta va a lograr centrar el elemento sí o sí.
+Útil para modales y ventanas que tienen que centrarse por encima de todo.
+Sería la forma bruta.
+*/
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+/* ⌈LA MEJOR⌋
+Larga de recordar, pero vale la pena.
+Usando flex podemos alinear los elementos en el centro y justificar su contenido también en el centro.
+*/
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
